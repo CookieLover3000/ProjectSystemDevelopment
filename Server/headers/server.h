@@ -1,0 +1,19 @@
+#include <netinet/in.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <unistd.h>
+#include <time.h>
+#include <iostream>
+#include <string>
+#include <wiringPi.h>
+#include <fcntl.h>
+
+#include "deur.h"
+#include "stoel.h"
+#include "zuil.h"
+#include "bed.h"
+#include "balie.h"
+#include "schemerlamp.h"
+#include "muur.h"
+#include "koelkast.h"
+#include "alarm.h"
